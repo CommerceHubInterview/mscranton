@@ -1,8 +1,10 @@
 ### Problem Statement
-CommerceHub has a partner that owns a hotel. Hotels are definitely not our business, but this is a good partner, so we want to do our best to help them out. The hotel currently has no online presence whatsoever, and they currently only take reservations over the phone. The hotel owner wants to expand their capabilities, and is asking for us to design a system that allows customers to make hotel reservations online. Before the engineers begin building the web app, you have been asked to design how to store and structure the reservation data.
+CommerceHub has a partner that owns a hotel. Hotels are definitely not our business, but this is a good partner, so we want to do our best to help them out. The hotel currently has no online presence whatsoever, and they currently only take reservations over the phone. The hotel owner wants to expand their capabilities, and is asking for us to design a system that allows customers to make hotel reservations online. 
+
+An engineer attempted to model how to capture the data they need, but you have been asked to review and re-design how to store and structure the reservation data.
 
 The product manager has told you the following details to consider:
-1. The hotel only has one location
+1. The hotel only has one location with no plans of expansion.
 2. All rooms are identical except for the bed type. The hotel describes their rooms as "King-sized" and "Queen-sized." There are 200 rooms total - 100 of each type.
 3. The hotel only collects name, phone number, and email.
 4. A customer can only book one hotel room at a time.
