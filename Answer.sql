@@ -5,7 +5,7 @@ CREATE TABLE dbo.Customer
 , firstName NVARCHAR(50) NOT NULL
 , lastName NVARCHAR(50) NOT NULL 
 , phoneNumber VARCHAR(20) NOT NULL
-, emalAddress NVARCHAR(50) NOT NULL
+, emalAddress NVARCHAR(100) NOT NULL
 , CONSTRAINT PK_Customer_customerId PRIMARY KEY CLUSTERED (customerId)
 );
 GO
